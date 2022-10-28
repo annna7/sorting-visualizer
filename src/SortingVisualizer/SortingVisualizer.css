@@ -1,0 +1,40 @@
+.element-bar {
+    display: inline-block;
+    margin: 0 1px;
+    width: 5px;
+    background-color: forestgreen;
+    box-shadow: white 2px 2px;
+}
+
+body {
+    background: black;
+}
+
+.title {
+    color: white;
+    font-size: 150%;
+    text-shadow: 2px 2px forestgreen;
+    -webkit-text-stroke: thin black;
+}
+
+.element-container {
+    position: absolute;
+    top: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    horiz-align: center;
+    align-self: center;
+    left: 2rem;
+    right: 2rem;
+}
+
+.options {
+    color: white;
+    position: relative;
+    top: 230px;
+    display: inline-block;
+    font-size: smaller;
+    line-height: 0px;
+}
+
